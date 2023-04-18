@@ -1,0 +1,91 @@
+
+
+.border_navbar
+{
+    border: auto;
+    border-color: black;
+}
+
+form {
+  font: 1em sans-serif;
+  max-width: 500px;
+}
+
+p > label {
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea,
+fieldset {
+  width : 100%;
+  border: 1px solid #333;
+  box-sizing: border-box;
+}
+
+input:invalid {
+  box-shadow: 0 0 5px 1px red;
+}
+
+input:focus:invalid {
+  box-shadow: none;
+}
+
+#h2A1{
+
+  font-size: 2.5em;
+
+}
+
+
+#articulo1{
+  background-color: rgba(45, 45, 45, 0.256); 
+  width: 30%;
+   right: 30%;
+   border: 2px; 
+   border-style: outset;
+   
+}
+  
+
+
+
+#h1Form1{
+text-align: center !important;
+}
+
+#seccion1{
+
+  background-color: rgba(36, 36, 36, 0.511);
+  font-family: cursive;
+  text-align: center;
+}
+
+#seccion1 .contenedor img{
+  width: 350px;
+  height: 250px;
+  border-radius: 20px;
+}
+#seccion1 .contenedor{
+  display: flex;
+  justify-content: center;
+  margin: 25px;
+  flex-wrap: wrap;
+}
+#seccion1 .contenedor article{
+ 
+  margin: 10px;
+}
+
+.btn-danger{
+
+ background-color: #dc3545;
+
+}
+
+
+div #car1{
+  background-color: #00000075;
+}

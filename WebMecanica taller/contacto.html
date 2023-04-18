@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🆁🅰🆈🅾 🅼🅰🅺🆆🅴🅴🅽Ⓡ</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/diseño.css">
+    <link rel="stylesheet" href="css/fontello.css">
+</head>
+<body>
+    <!-- Barra de Navegacion -->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-danger">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <h2>🆁🅰🆈🅾 🅼🅰🅺🆆🅴🅴🅽</h2>
+        </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" 
+            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toogle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+
+          </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav">
+                           <ul class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" style="color: white;">
+                      Especialidades!!
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Especialidades 1</a></li>
+                      <li><a class="dropdown-item" href="#">Especialidades 2</a></li>
+                      <li><a class="dropdown-item" href="#">Especialidades 3</a></li>
+                      <li><a class="dropdown-item" href="#">Especialidades 4</a></li>
+                    </ul>
+                  </ul>
+                  <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                  <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                  <li class="nav-item"><a class="nav-link" href="login.html">Ingreso como Usuario</a></li>
+                  <li class="nav-item"><a class="nav-link" href="registro.html">Regístrate</a></li>
+                </ul>
+            </div>
+            
+       </div>
+     </nav>
+    <br>
+    <br>
+    <!-- Contacto Cuerpo -->
+    <section>
+    <div class="container " style="max-width: 500px" id="contenedor-formulario">
+        <div class="text-center mb-4" id="titulo-formulario">
+          <div><img src="img/support.png" alt="" class="img-fluid ps-5"></div>
+          <h2>Contáctanos</h2>
+          <p class="fs-5">Te esperamos en nuestro Taller Mecanico</p>
+        </div>
+  
+        
+        <form   method="POST" data-netlify="true" action="#" onsubmit="return validar()">     
+              <div class= "mb-3">           
+                <input type="email" class="form-control" id="email" name="email" placeholder="CorreoUsuario@ejemplo.com">
+              </div>          
+              <div class="mb-3">            
+                <input type="input" class="form-control" id="nombre" name="nombre" placeholder="Nombre del Usuario">
+              </div>
+              <div class="mb-3">  
+              <input type="input" class="form-control" name="inpRut" id="inpRut" placeholder="ingrese rut (xxxxxxxx-x)">
+                            <div class="mb-3">
+              <button type="submit" class=" btn btn-danger w-80 fs-8" onclick="validarRut()">Validacion de Rut</button>
+            </div>
+              </div>
+              <div class="mb-3">
+                <input type="tel" class="form-control" name="numTelefono" id="numTelefono" placeholder="Numero Telefonico(+56 9 XXXX XXXX)">
+              </div>
+              <br>
+              <div class="mb-3">       
+              <h6 name="message" id="message" >Escriba el mensaje o Sugerencia para Ayudarlo</h6>
+            </div>
+            <div class="mb-3">       
+              <textarea class="form-control" name="mensaje" id="mensaje" rows="4"></textarea>             
+            </div>
+
+            <div class="mb-3">
+              <button type="submit" class=" btn btn-danger w-100 fs-5" onclick="jj()">Enviar Mensaje Generado</button>
+              </div>
+              <div class="mb-3">
+              <button type="submit" class=" btn btn-danger w-100 fs-5" onclick="impresion()">Impresion</button>
+               </div>
+
+            
+        </form>   
+    </div>
+    <div>
+    </section>
+
+    <br>
+    <br>
+ 
+    <!--Pie de Pagina -->
+      <footer style="background-color: #dc3545;" id="blog">
+    <section>
+     <div class="cotenedor">
+    <div class="ms-2">
+    <a href="index.html" style="color: black;"><p style="text-align: center;">🆁🅰🆈🅾 🅼🅰🅺🆆🅴🅴🅽 Ⓡ</p></a>
+    </div>
+    <ul style="font-color: #dc3545;">
+        <a href="#">Contacto Ayuda/</a>
+        <a href="#">Ayuda SitioWeb/</a>
+        <a href="#">aaaa/</a>
+        <a href="#">aaaa/</a>
+        <a href="#">aaaa/</a>
+        <a href="#">aaaa</a> 
+   </ul>
+   </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    <script src="js/validaciones.js"></script>
+</body>
+</html>
